@@ -1,6 +1,7 @@
 import React, { useSyncExternalStore } from 'react'
 import { useCart, useDispatchCart } from "../components/ContextReducer";
 import { ReactComponent as Trash } from "../trash3.svg";
+import { baseUrl } from '../Urls';
 
 export default function Cart() {
     let data = useCart();
