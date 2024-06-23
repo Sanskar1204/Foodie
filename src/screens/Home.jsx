@@ -57,25 +57,28 @@ export default function Home() {
             <div className="carousel-item active">
               <img
                 className="d-block w-100"
-                src="https://source.unsplash.com/random/300×300/?burger"
+                // src="https://source.unsplash.com/random/300×300/?burger"
+                src="https://www.adenpizza.net/wp-content/uploads/2015/08/slider-2.jpg"
                 alt="First slide"
-                style={{ filter: "brightness(40%)" }}
+                style={{ filter: "brightness(80%)" }}
               />
             </div>
             <div className="carousel-item">
               <img
                 className="d-block w-100"
-                src="https://source.unsplash.com/random/300×300/?pizza"
+                // src="https://source.unsplash.com/random/300×300/?pizza"
+                src="https://static.vecteezy.com/system/resources/previews/026/794/680/non_2x/double-hamburger-isolated-on-white-background-fresh-burger-fast-food-with-beef-and-cream-cheese-realistic-image-ultra-hd-high-design-very-detailed-free-photo.jpg"
                 alt="Second slide"
-                style={{ filter: "brightness(40%)" }}
+                style={{ filter: "brightness(100%)" }}
               />
             </div>
             <div className="carousel-item">
               <img
                 className="d-block w-100"
-                src="https://source.unsplash.com/random/300×300/?rice"
+                // src="https://source.unsplash.com/random/300×300/?rice"
+                src="https://wallpapers.com/images/hd/chinese-food-pictures-283a542wre04dt2j.jpg"
                 alt="Third slide"
-                style={{ filter: "brightness(40%)" }}
+                style={{ filter: "brightness(80%)" }}
               />
             </div>
           </div>
