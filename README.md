@@ -1,44 +1,76 @@
-# Foody Web: Food Delivery App
-A web application which has features of login, signup, selecting food from the menu and checking out with the food selected.
-Based on Reactjs, Express, MongoDB and Node.js.
-<br>
-Bootstrap-dark-5 CSS framework is used for the designing part.
-Usage of API's built on localhost, and with MongoDB document and collction insertion.
-Usage of Bcryptjs and JWT tokens for the authorisation and encryption of the password and generating tokens for security purpose.
-Also the search bar is made active by using filter in Reactjs to get the desired food item.
-<br>
-For seperate repos of UI and backend:
-<br>
-Front-end:
-https://github.com/prashantsingh30/FoodyWeb/tree/main/src
-<br>
-Back-end:
-https://github.com/prashantsingh30/FoodyWeb/tree/main/backend
-# The website 
-<img width="960" alt="image" src="![Screenshot 2024-10-21 201924](https://github.com/user-attachments/assets/a208bfa6-ba55-43c8-9b24-37d12ca9cb3b)">
+# Foody Web: Online Food Delivery App
 
-- The list of Food Items
-- Data fetched from end point made for the data present in MongoDB.
-<img width="960" alt="image" src="![Screenshot 2024-10-06 231521](https://github.com/user-attachments/assets/1cc4cd1d-4764-41b3-9c9c-c5d66a3c3a49)">
+Foody Web is a Full-stack web application built with the **MERN stack** (MongoDB, Express, React, Node.js). It allows users to browse a dynamic menu, place orders, and securely complete transactions through an integrated payment system.
 
+## Features
+- **User Authentication**: Secure login and signup using **bcryptjs** and **JWT tokens** for session management.
+- **Dynamic Menu**: Fetches and displays food items from MongoDB, with a real-time search feature.
+- **Checkout & Payment**: Smooth order placement and payment process via **Razorpay** integration.
+- **Responsive Design**: Built with **Bootstrap** for an adaptive user interface.
 
-- Sign-up Page
-<img width="960" alt="image" src="![Screenshot 2024-10-06 231256](https://github.com/user-attachments/assets/1eb51dc5-7e59-4038-9f63-b47915badb2d)">
+## Tech Stack
+- **Frontend**: React.js, Bootstrap-dark-5
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (Atlas)
+- **Authentication**: bcryptjs, JWT
+- **Payment Gateway**: Razorpay
 
-- Entry in MongoDB Atlas
-<img width="783" alt="image" src="![Screenshot 2024-10-06 225000](https://github.com/user-attachments/assets/3b5f2865-285e-440c-bfcd-234e192b3a4f)">
+## Repository Structure
+- **Frontend**: [Front-end Source Code](https://github.com/prashantsingh30/FoodyWeb/tree/main/src)
+- **Backend**: [Back-end Source Code](https://github.com/prashantsingh30/FoodyWeb/tree/main/backend)
 
-- Login Page
-<img width="960" alt="image" src="![Screenshot 2024-10-06 231225](https://github.com/user-attachments/assets/feefcbf6-0cc2-4a2d-acea-7cbcdd2acf31)">
+## Screenshots
+- **Website Page**
+  ![Food Items List](https://github.com/user-attachments/assets/a208bfa6-ba55-43c8-9b24-37d12ca9cb3b)
 
-- After login changes in Navbar
-<img width="959" alt="image" src="![Screenshot 2024-10-21 201840](https://github.com/user-attachments/assets/40adb9cc-112a-4989-b97d-916e9d5d6dda)">
+- **Food Items List**
+  ![Food Items List](https://github.com/user-attachments/assets/1cc4cd1d-4764-41b3-9c9c-c5d66a3c3a49)
 
-- Using Bootstrap badge for change in values in cart according to ordered items
-<img width="945" alt="image" src="![Screenshot 2024-10-21 202034](https://github.com/user-attachments/assets/f7b1e135-3cf3-4a51-80c3-d8096d902ba3)">
+- **Sign-Up Page**
+  ![Sign-Up Page](https://github.com/user-attachments/assets/1eb51dc5-7e59-4038-9f63-b47915badb2d)
 
-- Checkout Page
-<img width="954" alt="image" src="![Screenshot 2024-10-06 231736](https://github.com/user-attachments/assets/0d983a54-df59-45fa-b338-0353379fa88e)">
+- **MongoDB Entry**
+  ![MongoDB Atlas](https://github.com/user-attachments/assets/a86f6b02-c2c7-46ab-8818-5e8751bf2c53)
 
-- Data Entry for order
-<img width="790" alt="image" src="![Screenshot 2024-10-06 230227](https://github.com/user-attachments/assets/ec404b31-d3d6-432a-90b2-cdff2aceb1e1)">
+- **Login Page**
+  ![Login Page](https://github.com/user-attachments/assets/feefcbf6-0cc2-4a2d-acea-7cbcdd2acf31)
+
+- **Checkout Page**
+  ![Checkout Page](https://github.com/user-attachments/assets/0d983a54-df59-45fa-b338-0353379fa88e)
+
+- **Payment Page**
+  ![Payment Page](https://github.com/user-attachments/assets/ba48dac9-51db-4028-a1e4-c936bf790825)
+
+- **Payment Success Page**
+  ![Payment Success Page](https://github.com/user-attachments/assets/2fc7f4d9-2363-4d08-89d6-28063098b86c)
+
+- **Order Data Entry**
+  ![Order Data](https://github.com/user-attachments/assets/ec404b31-d3d6-432a-90b2-cdff2aceb1e1)
+
+- **Footer**
+  ![Footer](https://github.com/user-attachments/assets/6076199f-409a-41a0-8b01-bbbceb50d4d7)
+
+## Please Note 
+ Wait for few seconds if the menu items is not loaded, as the free tier services pauses after sometime and after backend, the live project will work properly.
+ 
+## How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/prashantsingh30/FoodyWeb.git
+
+2. Install dependencies
+   ```bash
+   npm install
+
+3. Start the Backend server:
+   ```bash
+   cd backend
+   nodemon index.js
+
+5. Start the FrontEnd server:
+   ```bash
+   npm start
+   
+## Contribution
+**Contributions are welcome! If you have suggestions or find bugs, feel free to open an issue or submit a pull request.**   
+Make sure to follow the contributing guidelines before submitting changes.
