@@ -58,7 +58,7 @@ export default function Home() {
               <img
                 className="d-block w-100"
                 // src="https://source.unsplash.com/random/300×300/?burger"
-                src="https://www.adenpizza.net/wp-content/uploads/2015/08/slider-2.jpg"
+                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dveggie%2Bpizza&psig=AOvVaw2gjLuGtA_xKXh71KK8ghQx&ust=1744524292211000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJi9l9Lp0YwDFQAAAAAdAAAAABAE"
                 alt="First slide"
                 style={{ filter: "brightness(80%)" }}
               />
