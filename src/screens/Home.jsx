@@ -58,9 +58,9 @@ export default function Home() {
               <img
                 className="d-block w-100"
                 // src="https://source.unsplash.com/random/300×300/?burger"
-                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dveggie%2Bpizza&psig=AOvVaw2gjLuGtA_xKXh71KK8ghQx&ust=1744524292211000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJi9l9Lp0YwDFQAAAAAdAAAAABAE"
+                src="https://c4.wallpaperflare.com/wallpaper/234/543/684/food-pizza-wallpaper-preview.jpg"
                 alt="First slide"
-                style={{ filter: "brightness(80%)" }}
+                style={{ filter: "brightness(105%)" }}
               />
             </div>
             <div className="carousel-item">
