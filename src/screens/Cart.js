@@ -39,7 +39,7 @@ export default function Cart() {
         key: "rzp_test_Jlz5q9bfq8PpEh",
         amount: order.amount,
         currency: order.currency,
-        name: "Foody Web",
+        name: "Foodie",
         image:
           "https://png.pngtree.com/png-vector/20220623/ourmid/pngtree-food-logo-png-image_5297921.png",
         description: "Ordering Food Online from FoodyWeb Website",
