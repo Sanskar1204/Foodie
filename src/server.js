@@ -3,7 +3,8 @@ const cors = require('cors');
 const path = require('path');
 const dotenv = require('dotenv');
 const crypto = require('crypto');
-const Razorpay = require('razorpay');
+const { connectToDatabase } = require('./db');
+const { getRazorpay } = require('./utils/razorpay');
 
 dotenv.config();
 
@@ -19,15 +20,11 @@ app.use(express.urlencoded({ extended: true }));
 // Static demo checkout page
 app.use(express.static(path.join(process.cwd(), 'public')));
 
-// Lazy Razorpay client factory
-function getRazorpay() {
-  const keyId = process.env.RAZORPAY_KEY_ID;
-  const keySecret = process.env.RAZORPAY_KEY_SECRET;
-  if (!keyId || !keySecret) {
-    throw new Error('Razorpay keys not configured. Set RAZORPAY_KEY_ID and RAZORPAY_KEY_SECRET');
-  }
-  return new Razorpay({ key_id: keyId, key_secret: keySecret });
-}
+// Initialize database connection (non-blocking)
+connectToDatabase().catch((error) => {
+  // eslint-disable-next-line no-console
+  console.error('Failed to connect to MongoDB at startup:', error?.message || error);
+});
 
 // Health
 app.get('/health', (req, res) => {
