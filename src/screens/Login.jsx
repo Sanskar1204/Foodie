@@ -43,7 +43,7 @@ export default function Login() {
     <div style={{ backgroundImage: 'url("https://e1.pxfuel.com/desktop-wallpaper/937/414/desktop-wallpaper-backgrounds-professional-business-backgrounds-professional-webpage.jpg")', backgroundSize: 'cover',height: '100vh' }}>
       <div className='container'>
       <form onSubmit={handleSubmit}><br/><b>
-        <h2><center><b> Login To FoodyWeb </b></center></h2>
+        <h2><center><b> Login To Foodie </b></center></h2>
         <div className="form-group">
           <label htmlFor="exampleInputEmail1">Email address</label>
           <input type="email" className="form-control" name='email' value={credentials.email} onChange={onChange} id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" />
