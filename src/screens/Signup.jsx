@@ -47,7 +47,7 @@ export default function Signup() {
         <div style={{ backgroundImage: 'url("https://img.freepik.com/free-photo/modern-geometrical-wallpaper-with-round-lines_23-2148811528.jpg")', backgroundSize: 'cover',height: '100vh' }}>
         <div className='container'>
             <form onSubmit={handleSubmit}><b><br/>
-            <h2><center><b> Register To FoodyWeb </b></center></h2>
+            <h2><center><b> Register To Foodie </b></center></h2>
                 <div className="form-group mb-3">
                     <label htmlFor="name">Name</label>
                     <input type="text" className="form-control" name='name' value={credentials.name} onChange={onChange} placeholder="Enter Name" />
