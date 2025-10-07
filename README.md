@@ -17,6 +17,7 @@ Foodie is a Full-stack web application built with the **MERN stack** (MongoDB, E
 - **Authentication**: bcryptjs, JWT
 - **Payment Gateway**: Razorpay
 
+## Live Project: https://foodie-eta-lac.vercel.app/
 
 ## Please Note
 
